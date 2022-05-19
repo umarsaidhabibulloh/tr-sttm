@@ -1,0 +1,49 @@
+.hero {
+  background-image: url("../assets/img/iftar.jpg");
+  @apply bg-white bg-opacity-20 bg-blend-lighten flex justify-center items-center;
+}
+
+.name-container {
+  @apply bg-opacity-80 bg-white rounded-lg p-2;
+}
+
+.name-container .name-label {
+  font-size: xx-large;
+  color: #000000;
+}
+
+.subname-container {
+  background: transparent;
+  padding-top: 1em;
+}
+
+.tagline {
+  font-weight: bold;
+  color: #ffbd54;
+}
+
+.button-container {
+  padding-top: 2em;
+}
+
+.hero-button {
+  font-size: larger;
+  background-color: #985e34;
+  border: none;
+}
+
+.hero-button:hover {
+  cursor: pointer;
+}
+
+.description {
+  background-color: #ffbd54;
+}
+
+.features {
+  background-color: #d8a268;
+}
+
+.buynow {
+  background-color: #c1804c;
+}
